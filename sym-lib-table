@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name nrf5340)(type Legacy)(uri ${KIPRJMOD}/custom_symbols/nrf5340.lib)(options "")(descr ""))
+)
