@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:nrf5340_module-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -352,6 +353,7 @@ F 0 "L5" V 5900 2500 50  0000 C CNN
 F 1 "10uH" V 5900 2150 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 5850 2350 50  0001 C CNN
 F 3 "~" H 5850 2350 50  0001 C CNN
+F 4 "DNP" V 5900 1950 50  0000 C CNN "DNP"
 	1    5850 2350
 	0    -1   -1   0   
 $EndComp
@@ -361,7 +363,7 @@ Wire Wire Line
 	5750 2350 5150 2350
 Connection ~ 5150 2350
 Text GLabel 5500 2450 2    50   Input ~ 0
-VDD_nRF
+VDD_HV
 Wire Wire Line
 	5500 2450 5350 2450
 Wire Wire Line

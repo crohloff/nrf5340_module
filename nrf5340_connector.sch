@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:nrf5340_module-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -48,10 +49,10 @@ P1.10
 Text GLabel 2550 1450 2    50   Input ~ 0
 P1.13
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J4
+L Connector:Conn_ARM_JTAG_SWD_10 J?
 U 1 1 5E0665C6
 P 5500 1400
-F 0 "J4" H 5057 1446 50  0000 R CNN
+F 0 "J?" H 5057 1446 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 5057 1355 50  0000 R CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 5500 1400 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 5150 150 50  0001 C CNN
@@ -71,10 +72,10 @@ D+
 Text GLabel 5550 750  2    50   Input ~ 0
 VDD_nRF
 $Comp
-L power:GND #PWR0123
+L power:GND #PWR?
 U 1 1 5E077D9A
 P 900 700
-F 0 "#PWR0123" H 900 450 50  0001 C CNN
+F 0 "#PWR?" H 900 450 50  0001 C CNN
 F 1 "GND" H 905 527 50  0000 C CNN
 F 2 "" H 900 700 50  0001 C CNN
 F 3 "" H 900 700 50  0001 C CNN
@@ -82,10 +83,10 @@ F 3 "" H 900 700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0124
+L power:GND #PWR?
 U 1 1 5E0780C3
 P 900 2200
-F 0 "#PWR0124" H 900 1950 50  0001 C CNN
+F 0 "#PWR?" H 900 1950 50  0001 C CNN
 F 1 "GND" H 905 2027 50  0000 C CNN
 F 2 "" H 900 2200 50  0001 C CNN
 F 3 "" H 900 2200 50  0001 C CNN
@@ -93,10 +94,10 @@ F 3 "" H 900 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0127
+L power:GND #PWR?
 U 1 1 5E078950
 P 2550 2200
-F 0 "#PWR0127" H 2550 1950 50  0001 C CNN
+F 0 "#PWR?" H 2550 1950 50  0001 C CNN
 F 1 "GND" H 2555 2027 50  0000 C CNN
 F 2 "" H 2550 2200 50  0001 C CNN
 F 3 "" H 2550 2200 50  0001 C CNN
@@ -104,10 +105,10 @@ F 3 "" H 2550 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0128
+L power:GND #PWR?
 U 1 1 5E07908A
 P 2550 700
-F 0 "#PWR0128" H 2550 450 50  0001 C CNN
+F 0 "#PWR?" H 2550 450 50  0001 C CNN
 F 1 "GND" H 2555 527 50  0000 C CNN
 F 2 "" H 2550 700 50  0001 C CNN
 F 3 "" H 2550 700 50  0001 C CNN
@@ -115,10 +116,10 @@ F 3 "" H 2550 700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0129
+L power:GND #PWR?
 U 1 1 5E07B32C
 P 5450 2100
-F 0 "#PWR0129" H 5450 1850 50  0001 C CNN
+F 0 "#PWR?" H 5450 1850 50  0001 C CNN
 F 1 "GND" H 5455 1927 50  0000 C CNN
 F 2 "" H 5450 2100 50  0001 C CNN
 F 3 "" H 5450 2100 50  0001 C CNN
@@ -223,10 +224,10 @@ Wire Wire Line
 Wire Wire Line
 	900  700  900  750 
 $Comp
-L Connector_Generic:Conn_01x15 J2
+L Connector_Generic:Conn_01x15 J?
 U 1 1 5E152486
 P 1150 1450
-F 0 "J2" H 1250 1500 50  0000 L CNN
+F 0 "J?" H 1250 1500 50  0000 L CNN
 F 1 "Conn_01x15" H 1250 1400 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x15_P1.27mm_Vertical" H 1150 1450 50  0001 C CNN
 F 3 "~" H 1150 1450 50  0001 C CNN
@@ -238,10 +239,10 @@ VDD_nRF
 Wire Wire Line
 	950  850  900  850 
 $Comp
-L Connector_Generic:Conn_01x15 J3
+L Connector_Generic:Conn_01x15 J?
 U 1 1 5E15CBB6
 P 2300 1450
-F 0 "J3" H 2400 1500 50  0000 C CNN
+F 0 "J?" H 2400 1500 50  0000 C CNN
 F 1 "Conn_01x15" H 2600 1400 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x15_P1.27mm_Vertical" H 2300 1450 50  0001 C CNN
 F 3 "~" H 2300 1450 50  0001 C CNN
