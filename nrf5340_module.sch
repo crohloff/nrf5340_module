@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:nrf5340_module-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -7,7 +6,7 @@ encoding utf-8
 Sheet 1 3
 Title "nrf5340_module"
 Date "2019-11-17"
-Rev "1.0.0"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -302,17 +301,6 @@ F 3 "~" H 5150 2700 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C8
-U 1 1 5DDBE086
-P 5350 2700
-F 0 "C8" H 5442 2746 50  0000 L CNN
-F 1 "4.7uF" H 5442 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5350 2700 50  0001 C CNN
-F 3 "~" H 5350 2700 50  0001 C CNN
-	1    5350 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0106
 U 1 1 5DDBE08C
 P 5150 2850
@@ -323,19 +311,6 @@ F 3 "" H 5150 2850 50  0001 C CNN
 	1    5150 2850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5DDBE092
-P 5350 2850
-F 0 "#PWR0107" H 5350 2600 50  0001 C CNN
-F 1 "GND" H 5355 2677 50  0000 C CNN
-F 2 "" H 5350 2850 50  0001 C CNN
-F 3 "" H 5350 2850 50  0001 C CNN
-	1    5350 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 2800 5350 2850
 Wire Wire Line
 	5150 2800 5150 2850
 Wire Wire Line
@@ -360,23 +335,8 @@ $EndComp
 Wire Wire Line
 	5950 2350 6950 2350
 Wire Wire Line
-	5750 2350 5150 2350
+	5750 2350 5350 2350
 Connection ~ 5150 2350
-Text GLabel 5500 2450 2    50   Input ~ 0
-VDD_HV
-Wire Wire Line
-	5500 2450 5350 2450
-Wire Wire Line
-	5350 2450 5350 2550
-Wire Wire Line
-	5350 2550 5900 2550
-Wire Wire Line
-	5900 2550 5900 2500
-Wire Wire Line
-	5900 2500 6950 2500
-Connection ~ 5350 2550
-Wire Wire Line
-	5350 2550 5350 2600
 Wire Wire Line
 	5150 2350 5150 2600
 $Comp
@@ -1506,4 +1466,25 @@ NoConn ~ 3850 7150
 NoConn ~ 3850 7350
 NoConn ~ 3850 7450
 NoConn ~ 1500 5500
+$Comp
+L Device:R_Small R7
+U 1 1 602574E0
+P 5500 2500
+F 0 "R7" V 5214 2500 50  0000 C CNN
+F 1 "0R" V 5305 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 2500 50  0001 C CNN
+F 3 "~" H 5500 2500 50  0001 C CNN
+F 4 "DNP" V 5396 2500 50  0000 C CNN "DNP"
+	1    5500 2500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5600 2500 6950 2500
+Wire Wire Line
+	5400 2500 5350 2500
+Wire Wire Line
+	5350 2500 5350 2350
+Connection ~ 5350 2350
+Wire Wire Line
+	5350 2350 5150 2350
 $EndSCHEMATC
